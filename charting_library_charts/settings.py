@@ -18,7 +18,7 @@ DATABASES = {
 		'ENGINE': 'django.db.backends.postgresql_psycopg2',
 		'NAME': os.getenv('DB_NAME', 'charting_library'),
 		'USER': os.getenv('DB_USER', 'postgres'),
-		'PASSWORD': os.getenv('DB_PASSWORD', 'postgres'),
+		'PASSWORD': os.getenv('DB_PASSWORD', 'changeme'),
 		'HOST': os.getenv('DB_HOST', 'localhost'),
 		'PORT': int(os.getenv('DB_PORT', '5432')),
 	}
@@ -29,7 +29,7 @@ DATABASES = {
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'Etc/UTC'
+TIME_ZONE = 'Asia/Tehran'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
